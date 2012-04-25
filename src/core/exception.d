@@ -379,7 +379,7 @@ unittest
  * Params:
  *  h = The new assert handler.  Set to null to use the default handler.
  */
-void setAssertHandler( errorHandlerType h )
+deprecated void setAssertHandler( errorHandlerType h )
 {
     assertHandler = h;
 }
